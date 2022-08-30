@@ -1,0 +1,124 @@
+.header{
+    background-color: #003580;
+    color:white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin:20px 0 100px 0px;
+}
+.headerContainer.listMode{
+    margin:20px 0 0px 0px;
+}
+.headerList{
+    display:flex;
+    gap:40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.headerListItem.active{
+    border:1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0px;
+}
+.headerBtn{
+    background-color:#0071c2 ;
+    color:white;
+    cursor:pointer;
+    border:none;
+    padding:10px;
+    font-weight: 600;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid yellow;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0px;
+    border-radius: 5px ;
+    position: absolute;
+    bottom:-25px;
+    width: 100%;
+    max-width: 1024px;;
+}
+.headerIcon{
+    color:lightgray;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin: 0px 15px;
+    cursor:pointer;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color:lightgray;
+}
+.date{
+    position: absolute;
+    top:50px;
+    left: 250px;
+    z-index:2;
+}
+.options{
+    position: absolute;
+    right:170px;
+    color:gray;
+    top:50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    z-index:2;
+    background-color:white;
+}
+.optionItem{
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+.optionCounter{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:12px;
+    color:black;
+}
+.optionCounterButton{
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    border:1px solid #0071c2;
+    color:#0071c2;
+    background-color:white;
+}
+.optionCounterButton :disabled{
+    cursor:not-allowed;
+}
+.homeTitle{
+    width:1024px;
+    font-size:20px;
+}
