@@ -46,8 +46,8 @@ https://user-images.githubusercontent.com/91483223/187430311-5aa92bc0-e3e6-4652-
 * SECRET_KEY for Password Hashing (encrypted Password)
 * make a mongodb account and use your Api (for database access) in .env MONGO_URL for MongoDb
 * JWT_SECRET for web tokens 
-2 - make Cloudinary account for media cloud Database for Admin file
-3- go each file Admin, Api , Client
+2 - make Cloudinary account for media cloud Database for Admin file</br>
+3- go each file Admin, Api , Client</br>
 ````
 npm install && npm start
 ````
